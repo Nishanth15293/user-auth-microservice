@@ -19,3 +19,14 @@ $ nvm use
 ```shell
 $ npm start
 ```
+git clone https://github.com/Nishanth15293/user-auth-microservice.git
+
+use following commands
+
+cd user-auth-microservice
+npm install
+npm start
+
+cd hydra-router
+npm install
+npm start

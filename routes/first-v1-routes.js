@@ -11,7 +11,9 @@ const ServerResponse = require('fwsp-server-response');
 const config = require('../config/config.json');
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/osthustest');
+// mongoose.connect('mongodb://localhost/osthustest');
+mongoose.connect(config.MONGO_URL);
+
 mongoose.promise = global.Promise;
 
 const User = require('../models/UserModel');

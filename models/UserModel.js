@@ -10,7 +10,8 @@ var UserSchema = new mongoose.Schema({
     avatarURL: String,
     role: String,
     userActivity: Array,
-    updated_at: Date
+    updated_at: Date,
+    last_login: Date
 })
 
 UserSchema.plugin(mongoosePaginate);
